@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-22 01:28+0600\n"
+"PO-Revision-Date: 2014-06-23 00:06+0600\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: gcodeplater.py:33 gcodeplater.py:34
 msgid "GCODE files (*.gcode;*.GCODE;*.g)"
-msgstr ""
+msgstr "Файлы GCODE (*.gcode;*.GCODE;*.g)"
 
 #: gcodeplater.py:80
 msgid "Warning: no rotation support for now, object won't be correctly rotated"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: printrun/graph.py:28
 msgid "Temperature graph"
-msgstr ""
+msgstr "График температуры"
 
 #: printrun/gui.py:21 printrun/pronterface.py:40
 msgid "WX is not installed. This program requires WX to run."
@@ -63,7 +63,7 @@ msgstr ""
 
 #: printrun/gui.py:74
 msgid "Watch"
-msgstr ""
+msgstr "Включить график"
 
 #: printrun/gui.py:76
 msgid "Monitor Temperatures in Graph"
@@ -138,6 +138,8 @@ msgid ""
 "mm/\n"
 "min"
 msgstr ""
+"мм/\n"
+"мин"
 
 #: printrun/gui.py:197
 msgid "Heater:"
@@ -145,15 +147,15 @@ msgstr ""
 
 #: printrun/gui.py:273
 msgid "Set Maximum Speed for X & Y axes (mm/min)"
-msgstr ""
+msgstr "Установить максимальную скорость для осей X и Y (мм/мин)"
 
 #: printrun/gui.py:274
 msgid "XY:"
-msgstr ""
+msgstr "XY"
 
 #: printrun/gui.py:276
 msgid "mm/min Z:"
-msgstr ""
+msgstr "мм/мин Z:"
 
 #: printrun/gui.py:278
 msgid "Set Maximum Speed for Z axis (mm/min)"
@@ -216,7 +218,7 @@ msgstr "Подкл."
 
 #: printrun/gui.py:417
 msgid "Reset"
-msgstr ""
+msgstr "Р"
 
 #: printrun/gui.py:417
 msgid "Reset the printer"
@@ -270,7 +272,7 @@ msgstr ""
 
 #: printrun/gui.py:492
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: printrun/gui.py:495 printrun/gui.py:564 printrun/printcore.py:440
 #: printrun/printcore.py:448 printrun/pronsole.py:851 printrun/pronsole.py:907
@@ -362,7 +364,7 @@ msgstr ""
 
 #: printrun/objectplater.py:199
 msgid "Bed full, sorry sir :("
-msgstr ""
+msgstr "Стол полон"
 
 #: printrun/objectplater.py:209
 msgid ""
@@ -383,11 +385,11 @@ msgstr ""
 
 #: printrun/plater.py:212
 msgid "STL files (*.stl;*.STL)|*.stl;*.STL|OpenSCAD files (*.scad)|*.scad"
-msgstr ""
+msgstr "Файлы STL (*.stl;*.STL)|*.stl;*.STL|Файлы OpenSCAD (*.scad)|*.scad"
 
 #: printrun/plater.py:213
 msgid "STL files (*.stl;*.STL)|*.stl;*.STL"
-msgstr ""
+msgstr "Файлы STL (*.stl;*.STL)|*.stl;*.STL"
 
 #: printrun/plater.py:241
 msgid "Loading STL file failed"
@@ -1675,6 +1677,8 @@ msgid ""
 "OBJ, STL, and GCODE files (*.gcode;*.gco;*.g;*.stl;*.STL;*.obj;*.OBJ)|*."
 "gcode;*.gco;*.g;*.stl;*.STL;*.obj;*.OBJ|All Files (*.*)|*.*"
 msgstr ""
+"OBJ, STL, и файлы GCODE (*.gcode;*.gco;*.g;*.stl;*.STL;*.obj;*.OBJ)|*.gcode;"
+"*.gco;*.g;*.stl;*.STL;*.obj;*.OBJ|Все файлы (*.*)|*.*"
 
 #: printrun/pronterface.py:1721
 msgid "mm of filament used in this print"
