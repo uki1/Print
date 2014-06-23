@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-23 11:37+0600\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-06-23 14:15+0600\n"
+"Last-Translator: Николай <vk.com/i_uki>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +87,7 @@ msgstr "Выберите температуру экструдера"
 
 #: printrun/gui.py:98
 msgid "Switch Hotend On"
-msgstr ""
+msgstr "Включить нагрев экструдера"
 
 #: printrun/gui.py:98 printrun/gui.py:117
 msgid "Set"
@@ -107,11 +107,11 @@ msgstr "Выберите температуру стола"
 
 #: printrun/gui.py:117
 msgid "Switch Heated Bed On"
-msgstr ""
+msgstr "Включить нагрев стола"
 
 #: printrun/gui.py:146
 msgid "Tool:"
-msgstr ""
+msgstr "Инструменты:"
 
 #: printrun/gui.py:149
 msgid "Click to switch current extruder"
@@ -159,7 +159,7 @@ msgstr "мм/мин Z:"
 
 #: printrun/gui.py:278
 msgid "Set Maximum Speed for Z axis (mm/min)"
-msgstr ""
+msgstr "Установите максимальную скорость оси Z (мм/мин)"
 
 #: printrun/gui.py:334
 msgid ""
@@ -180,7 +180,7 @@ msgstr "Отправить"
 
 #: printrun/gui.py:377
 msgid "Send Command to Printer"
-msgstr ""
+msgstr "Отправить команду на принтер"
 
 #: printrun/gui.py:385
 msgid "Lock"
@@ -202,7 +202,7 @@ msgstr "Порт"
 
 #: printrun/gui.py:399
 msgid "Select Port Printer is connected to"
-msgstr "Выберите порт к которому подключен принтер"
+msgstr "Выберите последовательный порт к которому подключен принтер"
 
 #: printrun/gui.py:408
 msgid "Select Baud rate for printer communication"
@@ -210,7 +210,7 @@ msgstr ""
 
 #: printrun/gui.py:415
 msgid "Connect to the printer"
-msgstr ""
+msgstr "Подключение к принтеру"
 
 #: printrun/gui.py:415 printrun/pronterface.py:1888
 msgid "Connect"
@@ -222,27 +222,27 @@ msgstr "Сброс"
 
 #: printrun/gui.py:417
 msgid "Reset the printer"
-msgstr ""
+msgstr "Перезапуск принтера"
 
 #: printrun/gui.py:418
 msgid "Load a 3D model file"
-msgstr ""
+msgstr "Загрузить файл 3D модели"
 
 #: printrun/gui.py:418
 msgid "Load file"
-msgstr ""
+msgstr "Загрузить файл"
 
 #: printrun/gui.py:419
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #: printrun/gui.py:419
 msgid "SD Card Printing"
-msgstr ""
+msgstr "Настройки SD карты"
 
 #: printrun/gui.py:421
 msgid "Start Printing Loaded File"
-msgstr ""
+msgstr "Начать печать загруженного файла"
 
 #: printrun/gui.py:421 printrun/pronterface.py:366
 #: printrun/pronterface.py:1643 printrun/pronterface.py:1709
@@ -253,7 +253,7 @@ msgstr "Печать"
 
 #: printrun/gui.py:423
 msgid "Pause Current Print"
-msgstr ""
+msgstr "Пауза текущей печати"
 
 #: printrun/gui.py:423 printrun/pronterface.py:1710
 #: printrun/pronterface.py:1755 printrun/pronterface.py:1809
@@ -264,11 +264,11 @@ msgstr "Пауза"
 
 #: printrun/gui.py:424
 msgid "Turn printer off"
-msgstr ""
+msgstr "Выключить принтер"
 
 #: printrun/gui.py:491
 msgid "Commands"
-msgstr ""
+msgstr "Команды"
 
 #: printrun/gui.py:492
 msgid "Status"
@@ -279,7 +279,7 @@ msgstr "Статус"
 #: printrun/pronterface.py:1511 printrun/pronterface.py:1749
 #: printrun/pronterface.py:1864
 msgid "Not connected to printer."
-msgstr ""
+msgstr "Нет соединения с принтером"
 
 #: printrun/gviz.py:28
 msgid "Layer number and Z position show here when you scroll"
@@ -303,7 +303,7 @@ msgstr ""
 
 #: printrun/gviz.py:43
 msgid "Reset view"
-msgstr ""
+msgstr "Сбросить вид"
 
 #: printrun/gviz.py:67
 msgid "Gcode view, shift to move view, mousewheel to set layer"
@@ -323,40 +323,40 @@ msgstr ""
 
 #: printrun/objectplater.py:45
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: printrun/objectplater.py:49
 msgid "Load"
-msgstr ""
+msgstr "Загрузить"
 
 #: printrun/objectplater.py:53
 msgid "Snap to Z = 0"
-msgstr ""
+msgstr "Привязать к Z=0"
 
 #: printrun/objectplater.py:57
 msgid "Put at center"
-msgstr ""
+msgstr "Установить в центр"
 
 #: printrun/objectplater.py:61
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: printrun/objectplater.py:65
 msgid "Auto arrange"
-msgstr ""
+msgstr "Автоустановка"
 
 #: printrun/objectplater.py:69
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 #: printrun/objectplater.py:73
 msgid "Done"
-msgstr ""
+msgstr "Выполнено"
 
 #: printrun/objectplater.py:76 printrun/pronterface.py:801
 #: printrun/pronterface.py:1653 printrun/pronterface_widgets.py:43
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: printrun/objectplater.py:151
 msgid "Autoplating"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: printrun/objectplater.py:210
 msgid "Clear the grid?"
-msgstr ""
+msgstr "Очистить сетку?"
 
 #: printrun/objectplater.py:256
 msgid "Pick file to load"
@@ -393,11 +393,11 @@ msgstr "Файлы STL (*.stl;*.STL)|*.stl;*.STL"
 
 #: printrun/plater.py:241
 msgid "Loading STL file failed"
-msgstr ""
+msgstr "Загрузка STL файла не удалась"
 
 #: printrun/plater.py:241 printrun/plater.py:247
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: printrun/plater.py:247
 msgid "Loading OpenSCAD file failed"
@@ -519,11 +519,11 @@ msgstr ""
 
 #: printrun/pronsole.py:238
 msgid "Serial port"
-msgstr ""
+msgstr "Последовательный порт:"
 
 #: printrun/pronsole.py:239
 msgid "Baud rate"
-msgstr ""
+msgstr "Скорость передачи"
 
 #: printrun/pronsole.py:239
 msgid "Communications Speed"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: printrun/pronsole.py:909
 msgid "Printing %s"
-msgstr ""
+msgstr "Напечатано %s"
 
 #: printrun/pronsole.py:910
 msgid "You can monitor the print with the monitor command."
@@ -1068,39 +1068,39 @@ msgstr ""
 
 #: printrun/pronterface.py:135
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: printrun/pronterface.py:138
 msgid "Depth"
-msgstr ""
+msgstr "Длина"
 
 #: printrun/pronterface.py:141
 msgid "Height"
-msgstr ""
+msgstr "Высота"
 
 #: printrun/pronterface.py:144
 msgid "X offset"
-msgstr ""
+msgstr "Смещение оси X"
 
 #: printrun/pronterface.py:147
 msgid "Y offset"
-msgstr ""
+msgstr "Смещение оси Y"
 
 #: printrun/pronterface.py:150
 msgid "Z offset"
-msgstr ""
+msgstr "Смещение оси Z"
 
 #: printrun/pronterface.py:153
 msgid "X home pos."
-msgstr ""
+msgstr "Домашняя позиция оси X."
 
 #: printrun/pronterface.py:156
 msgid "Y home pos."
-msgstr ""
+msgstr "Домашняя позиция оси Y."
 
 #: printrun/pronterface.py:159
 msgid "Z home pos."
-msgstr ""
+msgstr "Домашняя позиция оси Z."
 
 #: printrun/pronterface.py:201
 msgid "Path to the simarrange binary to use in the STL plater"
@@ -1149,7 +1149,7 @@ msgstr ""
 
 #: printrun/pronterface.py:205
 msgid "Pronterface background color"
-msgstr ""
+msgstr "Цвет фона программы"
 
 #: printrun/pronterface.py:206
 msgid "Interface mode"
@@ -1171,7 +1171,7 @@ msgstr ""
 
 #: printrun/pronterface.py:207
 msgid "Enable Slic3r integration"
-msgstr ""
+msgstr "Включить интеграцию со Slic3r"
 
 #: printrun/pronterface.py:208
 msgid "Update Slic3r default presets"
@@ -1345,11 +1345,11 @@ msgstr ""
 
 #: printrun/pronterface.py:377
 msgid "Printer is now online."
-msgstr ""
+msgstr "Принтер подключен"
 
 #: printrun/pronterface.py:381
 msgid "Disconnect"
-msgstr ""
+msgstr "Отключение"
 
 #: printrun/pronterface.py:554
 msgid "Setting hotend temperature to %f degrees Celsius."
@@ -1393,11 +1393,11 @@ msgstr ""
 
 #: printrun/pronterface.py:630
 msgid "E&xit"
-msgstr ""
+msgstr "Вы&ход"
 
 #: printrun/pronterface.py:631
 msgid "&File"
-msgstr ""
+msgstr "&Файл"
 
 #: printrun/pronterface.py:634
 msgid " Edit open file"
@@ -1405,7 +1405,7 @@ msgstr ""
 
 #: printrun/pronterface.py:634
 msgid "&Edit..."
-msgstr ""
+msgstr "&Изменить..."
 
 #: printrun/pronterface.py:635
 msgid " Compose 3D models into a single plate"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #: printrun/pronterface.py:638
 msgid "&Tools"
-msgstr ""
+msgstr "&Инструменты"
 
 #: printrun/pronterface.py:641
 msgid ""
@@ -1443,43 +1443,43 @@ msgstr ""
 
 #: printrun/pronterface.py:641
 msgid "Recover"
-msgstr ""
+msgstr "Восстановление"
 
 #: printrun/pronterface.py:644
 msgid "&Advanced"
-msgstr ""
+msgstr "&Общее"
 
 #: printrun/pronterface.py:648
 msgid "&Slic3r"
-msgstr ""
+msgstr "&Slic3r"
 
 #: printrun/pronterface.py:652
 msgid "Print &settings"
-msgstr ""
+msgstr "&Настройки печати"
 
 #: printrun/pronterface.py:653
 msgid "&Filament"
-msgstr ""
+msgstr "&Филамент"
 
 #: printrun/pronterface.py:654
 msgid "&Printer"
-msgstr ""
+msgstr "&Принтер"
 
 #: printrun/pronterface.py:663
 msgid "&Macros"
-msgstr ""
+msgstr "&Макрос"
 
 #: printrun/pronterface.py:664
 msgid "<&New...>"
-msgstr ""
+msgstr "<&Новый...>"
 
 #: printrun/pronterface.py:665
 msgid " Options dialog"
-msgstr ""
+msgstr "Открытие окна опций"
 
 #: printrun/pronterface.py:665
 msgid "&Options"
-msgstr ""
+msgstr "&Опции"
 
 #: printrun/pronterface.py:667
 msgid " Adjust slicing settings"
@@ -1491,19 +1491,19 @@ msgstr "Настройки Слайсера"
 
 #: printrun/pronterface.py:669
 msgid "Debug G-code"
-msgstr ""
+msgstr "Отладка G-кода"
 
 #: printrun/pronterface.py:670
 msgid "Print all G-code sent to and received from the printer."
-msgstr ""
+msgstr "Отображение в консоли всего отправленного/принятого G-кода"
 
 #: printrun/pronterface.py:680
 msgid "&Settings"
-msgstr ""
+msgstr "&Настройки"
 
 #: printrun/pronterface.py:686
 msgid "&About Printrun"
-msgstr ""
+msgstr "&О Печатай!"
 
 #: printrun/pronterface.py:686
 msgid "Show about dialog"
@@ -1511,7 +1511,7 @@ msgstr ""
 
 #: printrun/pronterface.py:687
 msgid "&?"
-msgstr ""
+msgstr "&?"
 
 #: printrun/pronterface.py:697
 msgid ""
@@ -1589,7 +1589,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1130
 msgid "Add custom button"
-msgstr ""
+msgstr "Добавить свою кнопку"
 
 #: printrun/pronterface.py:1268
 msgid ""
@@ -1662,11 +1662,11 @@ msgstr "Слайсинг..."
 #: printrun/pronterface.py:1640 printrun/pronterface.py:1641
 #: printrun/pronterface.py:1707 printrun/pronterface.py:1708
 msgid "Loaded %s, %d lines"
-msgstr ""
+msgstr "Загружено %s, %d линий"
 
 #: printrun/pronterface.py:1648
 msgid "Load File"
-msgstr ""
+msgstr "Загузить файл"
 
 #: printrun/pronterface.py:1686
 msgid "Open file to print"
@@ -1710,7 +1710,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1761
 msgid "File upload complete"
-msgstr ""
+msgstr "Загрузка файла завершена"
 
 #: printrun/pronterface.py:1780
 msgid "Pick SD filename"
@@ -1718,7 +1718,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1789
 msgid "Print paused at: %s"
-msgstr ""
+msgstr "Печать остановленна на: %s"
 
 #: printrun/pronterface.py:1801
 msgid "Resume"
@@ -1734,7 +1734,7 @@ msgstr "Подключение..."
 
 #: printrun/pronterface.py:1828
 msgid "Could not parse baud rate: "
-msgstr "Невозможно определить боды"
+msgstr "Невозможно определить скорость передачи"
 
 #: printrun/pronterface.py:1843
 msgid "Error: You are trying to connect to a non-existing port."
@@ -1766,11 +1766,11 @@ msgstr "Сбросить?"
 
 #: printrun/pronterface.py:1930
 msgid "Locking interface."
-msgstr ""
+msgstr "Заблокировать интерфейс"
 
 #: printrun/pronterface.py:1934
 msgid "Unlocking interface."
-msgstr ""
+msgstr "Разблокировать интерфейс"
 
 #: printrun/pronterface_widgets.py:36
 msgid "Find"
@@ -1782,11 +1782,11 @@ msgstr "Сохранить"
 
 #: printrun/pronterface_widgets.py:70
 msgid "Not Found!"
-msgstr ""
+msgstr "Не найдено!"
 
 #: printrun/pronterface_widgets.py:124
 msgid "Printer settings"
-msgstr ""
+msgstr "Настройки принтера"
 
 #: printrun/pronterface_widgets.py:125
 msgid "User interface"
