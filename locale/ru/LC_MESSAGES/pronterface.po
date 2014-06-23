@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-23 00:06+0600\n"
+"PO-Revision-Date: 2014-06-23 11:37+0600\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: printrun/gui.py:182
 msgid "mm @"
-msgstr ""
+msgstr "мм @"
 
 #: printrun/gui.py:183
 msgid "Amount to Extrude or Retract (mm)"
@@ -151,7 +151,7 @@ msgstr "Установить максимальную скорость для о
 
 #: printrun/gui.py:274
 msgid "XY:"
-msgstr "XY"
+msgstr "XY:"
 
 #: printrun/gui.py:276
 msgid "mm/min Z:"
@@ -198,11 +198,11 @@ msgstr ""
 
 #: printrun/gui.py:394
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
 #: printrun/gui.py:399
 msgid "Select Port Printer is connected to"
-msgstr ""
+msgstr "Выберите порт к которому подключен принтер"
 
 #: printrun/gui.py:408
 msgid "Select Baud rate for printer communication"
@@ -218,7 +218,7 @@ msgstr "Подкл."
 
 #: printrun/gui.py:417
 msgid "Reset"
-msgstr "Р"
+msgstr "Сброс"
 
 #: printrun/gui.py:417
 msgid "Reset the printer"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: printrun/objectplater.py:199
 msgid "Bed full, sorry sir :("
-msgstr "Стол полон"
+msgstr "Стол заполнен"
 
 #: printrun/objectplater.py:209
 msgid ""
@@ -971,7 +971,7 @@ msgstr ""
 
 #: printrun/pronsole.py:1397
 msgid "Slicing: "
-msgstr ""
+msgstr "Слайсинг:"
 
 #: printrun/pronsole.py:1400
 msgid "Loading sliced file."
@@ -1487,7 +1487,7 @@ msgstr ""
 
 #: printrun/pronterface.py:667
 msgid "Slicing Settings"
-msgstr ""
+msgstr "Настройки Слайсера"
 
 #: printrun/pronterface.py:669
 msgid "Debug G-code"
@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: printrun/pronterface.py:797
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: printrun/pronterface.py:819
 msgid "Macro name may contain only ASCII alphanumeric symbols and underscores"
@@ -1637,7 +1637,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1480
 msgid "Disconnecting after 4 failed writes."
-msgstr ""
+msgstr "Не подключен после 4 попыток"
 
 #: printrun/pronterface.py:1577
 msgid "Pick SD file"
@@ -1649,7 +1649,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1613 printrun/pronterface.py:1654
 msgid "Slicing "
-msgstr ""
+msgstr "Слайсинг"
 
 #: printrun/pronterface.py:1622
 msgid "Failed to execute slicing software: "
@@ -1657,7 +1657,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1629
 msgid "Slicing..."
-msgstr ""
+msgstr "Слайсинг..."
 
 #: printrun/pronterface.py:1640 printrun/pronterface.py:1641
 #: printrun/pronterface.py:1707 printrun/pronterface.py:1708
@@ -1722,7 +1722,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1801
 msgid "Resume"
-msgstr ""
+msgstr "Продолжить"
 
 #: printrun/pronterface.py:1803
 msgid "Resuming."
@@ -1730,15 +1730,15 @@ msgstr ""
 
 #: printrun/pronterface.py:1816
 msgid "Connecting..."
-msgstr ""
+msgstr "Подключение..."
 
 #: printrun/pronterface.py:1828
 msgid "Could not parse baud rate: "
-msgstr ""
+msgstr "Невозможно определить боды"
 
 #: printrun/pronterface.py:1843
 msgid "Error: You are trying to connect to a non-existing port."
-msgstr ""
+msgstr "Ошибка: Вы пытаетесь подключиться к не существующему порту."
 
 #: printrun/pronterface.py:1845
 msgid "Error: You don't have permission to open %s."
@@ -1750,11 +1750,11 @@ msgstr ""
 
 #: printrun/pronterface.py:1879
 msgid "Disconnected."
-msgstr ""
+msgstr "Отключен."
 
 #: printrun/pronterface.py:1912
 msgid "Reset."
-msgstr ""
+msgstr "Сбросить."
 
 #: printrun/pronterface.py:1913
 msgid "Are you sure you want to reset the printer?"
@@ -1762,7 +1762,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1913
 msgid "Reset?"
-msgstr ""
+msgstr "Сбросить?"
 
 #: printrun/pronterface.py:1930
 msgid "Locking interface."
@@ -1778,7 +1778,7 @@ msgstr ""
 
 #: printrun/pronterface_widgets.py:38
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: printrun/pronterface_widgets.py:70
 msgid "Not Found!"
@@ -1814,8 +1814,8 @@ msgstr ""
 
 #: printrun/pronterface_widgets.py:195
 msgid "Command"
-msgstr ""
+msgstr "Команда"
 
 #: printrun/pronterface_widgets.py:204
 msgid "Color"
-msgstr ""
+msgstr "Цвет"
