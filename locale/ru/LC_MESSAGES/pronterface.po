@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-23 14:15+0600\n"
+"PO-Revision-Date: 2014-06-23 15:56+0600\n"
 "Last-Translator: Николай <vk.com/i_uki>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgstr "Инструменты:"
 
 #: printrun/gui.py:149
 msgid "Click to switch current extruder"
-msgstr ""
+msgstr "Нажмите для переключения экструдера"
 
 #: printrun/gui.py:166
 msgid "Select current extruder"
@@ -1044,11 +1044,11 @@ msgstr ""
 
 #: printrun/pronsole.py:1465
 msgid "Printer is not online. Unable to turn it off."
-msgstr ""
+msgstr "Принтер не подключен. "
 
 #: printrun/pronsole.py:1468
 msgid "Turns off everything on the printer"
-msgstr ""
+msgstr "Выключить все "
 
 #: printrun/pronsole.py:1471
 msgid ""
@@ -1116,7 +1116,7 @@ msgstr ""
 
 #: printrun/pronterface.py:202
 msgid "Number of extruders"
-msgstr ""
+msgstr "Число экструдеров"
 
 #: printrun/pronterface.py:203
 msgid "Build dimensions"
@@ -1275,39 +1275,39 @@ msgstr ""
 
 #: printrun/pronterface.py:231
 msgid "Pronterface"
-msgstr ""
+msgstr "Печатай!"
 
 #: printrun/pronterface.py:252
 msgid "Motors off"
-msgstr ""
+msgstr "Откл. двиг."
 
 #: printrun/pronterface.py:252
 msgid "Switch all motors off"
-msgstr ""
+msgstr "Отключение всех шаговых двигателей"
 
 #: printrun/pronterface.py:253
 msgid "Check current hotend temperature"
-msgstr ""
+msgstr "Проверка текущей температуры экструдера"
 
 #: printrun/pronterface.py:253
 msgid "Check temp"
-msgstr ""
+msgstr "Обновить температуру"
 
 #: printrun/pronterface.py:254
 msgid "Advance extruder by set length"
-msgstr ""
+msgstr "Подача филамента на указанную длину"
 
 #: printrun/pronterface.py:254
 msgid "Extrude"
-msgstr ""
+msgstr "Экструд"
 
 #: printrun/pronterface.py:255
 msgid "Reverse"
-msgstr ""
+msgstr "Реверс"
 
 #: printrun/pronterface.py:255
 msgid "Reverse extruder by set length"
-msgstr ""
+msgstr "Вытягивание филамента на указанную длину"
 
 #: printrun/pronterface.py:300
 msgid ""
@@ -1320,7 +1320,7 @@ msgstr ""
 msgid ""
 "Note!!! You have specified custom buttons in both custombtn.txt and ."
 "pronsolerc"
-msgstr ""
+msgstr "Примечание! Вы указали свои кнопки и в custombtn.txt и. pronsolerc"
 
 #: printrun/pronterface.py:306
 msgid ""
@@ -1357,7 +1357,7 @@ msgstr ""
 
 #: printrun/pronterface.py:561 printrun/pronterface.py:581
 msgid "You must enter a temperature. (%s)"
-msgstr ""
+msgstr "Вы должны установить температуру. (%s)"
 
 #: printrun/pronterface.py:574
 msgid "Setting bed temperature to %f degrees Celsius."
@@ -1369,15 +1369,15 @@ msgstr ""
 
 #: printrun/pronterface.py:600
 msgid "Cancelled."
-msgstr ""
+msgstr "Отменено."
 
 #: printrun/pronterface.py:628
 msgid " Opens file"
-msgstr ""
+msgstr "Открывается файл"
 
 #: printrun/pronterface.py:628
 msgid "&Open..."
-msgstr ""
+msgstr "&Открыть..."
 
 #: printrun/pronterface.py:629
 msgid " Clear output console"
@@ -1507,7 +1507,7 @@ msgstr "&О Печатай!"
 
 #: printrun/pronterface.py:686
 msgid "Show about dialog"
-msgstr ""
+msgstr "Отображение сведений о программе, номере версии и авторских правах"
 
 #: printrun/pronterface.py:687
 msgid "&?"
@@ -1682,7 +1682,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1721
 msgid "mm of filament used in this print"
-msgstr ""
+msgstr "мм филамента, будет использованно в этой печати"
 
 #: printrun/pronterface.py:1722
 msgid "The print goes:"
@@ -1802,7 +1802,7 @@ msgstr ""
 
 #: printrun/pronterface_widgets.py:134
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: printrun/pronterface_widgets.py:186
 msgid "Custom button"
