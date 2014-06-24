@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-23 15:56+0600\n"
+"PO-Revision-Date: 2014-06-24 16:47+0600\n"
 "Last-Translator: Николай <vk.com/i_uki>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: printrun/excluder.py:27 printrun/excluder.py:29
 msgid "Reset selection"
-msgstr ""
+msgstr "Сбросить выделенное"
 
 #: printrun/gcoder.py:73
 msgid "raw G-Code line \"%s\" could not be parsed"
@@ -287,19 +287,19 @@ msgstr ""
 
 #: printrun/gviz.py:38
 msgid "Zoom In [+]"
-msgstr ""
+msgstr "Увеличить [+]"
 
 #: printrun/gviz.py:39
 msgid "Zoom Out [-]"
-msgstr ""
+msgstr "Уменьшить [-]"
 
 #: printrun/gviz.py:41
 msgid "Move Up a Layer [U]"
-msgstr ""
+msgstr "Переместить на слой вверх [U]"
 
 #: printrun/gviz.py:42
 msgid "Move Down a Layer [D]"
-msgstr ""
+msgstr "Переместить на слой вниз [U]"
 
 #: printrun/gviz.py:43
 msgid "Reset view"
@@ -527,39 +527,39 @@ msgstr "Скорость передачи"
 
 #: printrun/pronsole.py:239
 msgid "Communications Speed"
-msgstr ""
+msgstr "Скорость связи"
 
 #: printrun/pronsole.py:240
 msgid "Bed temperature for ABS"
-msgstr ""
+msgstr "Температура стола для АБС"
 
 #: printrun/pronsole.py:240
 msgid "Heated Build Platform temp for ABS (deg C)"
-msgstr ""
+msgstr "Температура нагревательной платформы для АБС пластика (град. Цельсия)"
 
 #: printrun/pronsole.py:241
 msgid "Bed temperature for PLA"
-msgstr ""
+msgstr "Температура стола для ПЛА"
 
 #: printrun/pronsole.py:241
 msgid "Heated Build Platform temp for PLA (deg C)"
-msgstr ""
+msgstr "Температура нагревательной платформы для ПЛА пластика (град. Цельсия)"
 
 #: printrun/pronsole.py:242
 msgid "Extruder temp for ABS (deg C)"
-msgstr ""
+msgstr "Температура экструдера для АБС пластика (град. Цельсия)"
 
 #: printrun/pronsole.py:242
 msgid "Extruder temperature for ABS"
-msgstr ""
+msgstr "Температура экструдера для АБС"
 
 #: printrun/pronsole.py:243
 msgid "Extruder temp for PLA (deg C)"
-msgstr ""
+msgstr "Температура экструдера для ПЛА пластика (град. Цельсия)"
 
 #: printrun/pronsole.py:243
 msgid "Extruder temperature for PLA"
-msgstr ""
+msgstr "Температура экструдера для ПЛА"
 
 #: printrun/pronsole.py:244
 msgid "Feedrate for Control Panel Moves in X and Y (mm/min)"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: printrun/pronsole.py:860
 msgid "Progress: "
-msgstr ""
+msgstr "Прогресс"
 
 #: printrun/pronsole.py:872
 msgid "Upload completed. %s should now be on the card."
@@ -784,7 +784,7 @@ msgstr ""
 
 #: printrun/pronsole.py:1175
 msgid "You cannot set negative tool numbers."
-msgstr ""
+msgstr "Вы не можете установить отрицательные числа."
 
 #: printrun/pronsole.py:1178
 msgid ""
@@ -931,11 +931,11 @@ msgstr ""
 
 #: printrun/pronsole.py:1355 printrun/pronsole.py:1358
 msgid "Print progress: "
-msgstr ""
+msgstr "Прогресс печати:"
 
 #: printrun/pronsole.py:1366 printrun/pronterface.py:1361
 msgid "Done monitoring."
-msgstr ""
+msgstr "Мониторинг завершен."
 
 #: printrun/pronsole.py:1370
 msgid "Monitor a machine's temperatures and an SD print's status."
@@ -979,7 +979,7 @@ msgstr ""
 
 #: printrun/pronsole.py:1403
 msgid "Slicing failed: %s"
-msgstr ""
+msgstr "Слайсинг не удался: %s"
 
 #: printrun/pronsole.py:1416
 msgid ""
@@ -1024,23 +1024,23 @@ msgstr ""
 
 #: printrun/pronsole.py:1454
 msgid "; Motors off"
-msgstr ""
+msgstr "Откл. двиг."
 
 #: printrun/pronsole.py:1456
 msgid "; Extruder off"
-msgstr ""
+msgstr "Откл. экстр."
 
 #: printrun/pronsole.py:1458
 msgid "; Heatbed off"
-msgstr ""
+msgstr "Откл. стол"
 
 #: printrun/pronsole.py:1460
 msgid "; Fan off"
-msgstr ""
+msgstr "Откл. вент."
 
 #: printrun/pronsole.py:1462
 msgid "; Power supply off"
-msgstr ""
+msgstr "Откл. питание"
 
 #: printrun/pronsole.py:1465
 msgid "Printer is not online. Unable to turn it off."
@@ -1064,7 +1064,7 @@ msgstr ""
 
 #: printrun/pronsole.py:1473
 msgid "file to load"
-msgstr ""
+msgstr "файл для загрузки"
 
 #: printrun/pronterface.py:135
 msgid "Width"
@@ -1211,11 +1211,11 @@ msgstr ""
 
 #: printrun/pronterface.py:212
 msgid "Display temperature graph"
-msgstr ""
+msgstr "Окно графика температуры"
 
 #: printrun/pronterface.py:212
 msgid "Display time-lapse temperature graph"
-msgstr ""
+msgstr "Показать покадровый график температур"
 
 #: printrun/pronterface.py:213
 msgid "Display graphical gauges for temperatures visualization"
@@ -1670,7 +1670,7 @@ msgstr "Загузить файл"
 
 #: printrun/pronterface.py:1686
 msgid "Open file to print"
-msgstr ""
+msgstr "Открыть файл для печати"
 
 #: printrun/pronterface.py:1687
 msgid ""
@@ -1686,7 +1686,7 @@ msgstr "мм филамента, будет использованно в это
 
 #: printrun/pronterface.py:1722
 msgid "The print goes:"
-msgstr ""
+msgstr "Печать идет:"
 
 #: printrun/pronterface.py:1723
 msgid "- from %.2f mm to %.2f mm in X and is %.2f mm wide"
@@ -1706,7 +1706,7 @@ msgstr ""
 
 #: printrun/pronterface.py:1757
 msgid "Restart"
-msgstr ""
+msgstr "Перезапуск"
 
 #: printrun/pronterface.py:1761
 msgid "File upload complete"
@@ -1726,7 +1726,7 @@ msgstr "Продолжить"
 
 #: printrun/pronterface.py:1803
 msgid "Resuming."
-msgstr ""
+msgstr "Возобнавление."
 
 #: printrun/pronterface.py:1816
 msgid "Connecting..."
@@ -1758,7 +1758,7 @@ msgstr "Сбросить."
 
 #: printrun/pronterface.py:1913
 msgid "Are you sure you want to reset the printer?"
-msgstr ""
+msgstr "Вы уверены, что хотите перезапустить принтер?"
 
 #: printrun/pronterface.py:1913
 msgid "Reset?"
@@ -1774,7 +1774,7 @@ msgstr "Разблокировать интерфейс"
 
 #: printrun/pronterface_widgets.py:36
 msgid "Find"
-msgstr ""
+msgstr "Искать"
 
 #: printrun/pronterface_widgets.py:38
 msgid "Save"
@@ -1790,15 +1790,15 @@ msgstr "Настройки принтера"
 
 #: printrun/pronterface_widgets.py:125
 msgid "User interface"
-msgstr ""
+msgstr "Интерфейс пользователя"
 
 #: printrun/pronterface_widgets.py:126
 msgid "External commands"
-msgstr ""
+msgstr "Внешние команды"
 
 #: printrun/pronterface_widgets.py:131
 msgid "Edit settings"
-msgstr ""
+msgstr "Изменить настройки"
 
 #: printrun/pronterface_widgets.py:134
 msgid "Settings"
@@ -1806,7 +1806,7 @@ msgstr "Настройки"
 
 #: printrun/pronterface_widgets.py:186
 msgid "Custom button"
-msgstr ""
+msgstr "Пользовательская кнопка"
 
 #: printrun/pronterface_widgets.py:192
 msgid "Button title"
