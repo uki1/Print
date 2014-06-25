@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Печатай\n"
 "POT-Creation-Date: 2013-11-02 12:19+CET\n"
-"PO-Revision-Date: 2014-06-24 16:47+0600\n"
+"PO-Revision-Date: 2014-06-25 17:51+0600\n"
 "Last-Translator: Николай <vk.com/i_uki>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -401,7 +401,7 @@ msgstr "Ошибка"
 
 #: printrun/plater.py:247
 msgid "Loading OpenSCAD file failed"
-msgstr ""
+msgstr "Неудачная загрузка OpenSCAD файла "
 
 #: printrun/plater.py:279
 msgid "Couldn't load non-existing file %s"
@@ -498,24 +498,24 @@ msgstr ""
 
 #: printrun/pronsole.py:66
 msgid "Default: "
-msgstr ""
+msgstr "Стандартные:"
 
 #: printrun/pronsole.py:67
 msgid "(Control-doubleclick to reset to default value)"
-msgstr ""
+msgstr "CTRL + [двойной клик]- сбросить на стандартные значения"
 
 #: printrun/pronsole.py:102
 msgid ""
 "Are you sure you want to reset the setting to the default value: {0!r} ?"
-msgstr ""
+msgstr "Вы точно хотите сбросить настройки на стандартные: {0!r} ?"
 
 #: printrun/pronsole.py:102
 msgid "Confirm set default"
-msgstr ""
+msgstr "Установка стандартных"
 
 #: printrun/pronsole.py:238
 msgid "Port used to communicate with printer"
-msgstr ""
+msgstr "Порт используется для связи с принтером"
 
 #: printrun/pronsole.py:238
 msgid "Serial port"
@@ -564,46 +564,50 @@ msgstr "Температура экструдера для ПЛА"
 #: printrun/pronsole.py:244
 msgid "Feedrate for Control Panel Moves in X and Y (mm/min)"
 msgstr ""
+"Скорость перемещения оси X и Y при использовании Панели Перемещений (мм/мин)"
 
 #: printrun/pronsole.py:244
 msgid "X && Y manual feedrate"
-msgstr ""
+msgstr "Скорость перемещения оси X и Y"
 
 #: printrun/pronsole.py:245
 msgid "Feedrate for Control Panel Moves in Z (mm/min)"
 msgstr ""
+"Скорость перемещения оси Z при использовании Панели Перемещений (мм/мин)"
 
 #: printrun/pronsole.py:245
 msgid "Z manual feedrate"
-msgstr ""
+msgstr "Скорость перемещения оси Z"
 
 #: printrun/pronsole.py:246
 msgid "E manual feedrate"
-msgstr ""
+msgstr "Скорость подачи экструдера"
 
 #: printrun/pronsole.py:246
 msgid "Feedrate for Control Panel Moves in Extrusions (mm/min)"
 msgstr ""
+"Скорость подачи пластика в экструдер при использовании Панели перемещений "
+"(мм/мин)"
 
 #: printrun/pronsole.py:247
 msgid "Slice command"
-msgstr ""
+msgstr "Команда запуска Слайсера"
 
 #: printrun/pronsole.py:248
 msgid "Slice settings command"
-msgstr ""
+msgstr "Команда настроек Слайсера"
 
 #: printrun/pronsole.py:248
 msgid "Slicer options command"
-msgstr ""
+msgstr "Команда опции Слайсера"
 
 #: printrun/pronsole.py:249
 msgid "Executable to run when the print is finished"
-msgstr ""
+msgstr "Команда будет запущена после окончания печати"
 
 #: printrun/pronsole.py:249
 msgid "Final command"
-msgstr ""
+msgstr "Финальная команда"
 
 #: printrun/pronsole.py:848
 msgid "Please enter target name in 8.3 format."
@@ -666,7 +670,7 @@ msgstr ""
 
 #: printrun/pronsole.py:924
 msgid "Pauses a running print"
-msgstr ""
+msgstr "Пауза запущенной печати"
 
 #: printrun/pronsole.py:931
 msgid "Not paused, unable to resume. Start a print first."
@@ -674,7 +678,7 @@ msgstr ""
 
 #: printrun/pronsole.py:941
 msgid "Resumes a paused print."
-msgstr ""
+msgstr "Продолжение остановленной печати"
 
 #: printrun/pronsole.py:956
 msgid "Files on SD card:"
